@@ -4,7 +4,7 @@ const MovieCard = ({movie: {title, vote_average, poster_path, release_date, orig
   return (
     <div className="movie-card">
         <img src={
-            poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-movie.png' } 
+            poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : 'src/assets/noPoster.png' } 
             alt={title} 
             className="movie-poster" 
         />
