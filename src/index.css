@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+/* Import Tailwind CSS and custom theme */
 @import "tailwindcss";
 
+/* Import custom theme and styles */
 @theme {
   --color-primary: #030014;
 
@@ -17,14 +19,16 @@
 
   --breakpoint-xs: 480px;
 
-  --background-image-hero-pattern: url("/hero-bg.png");
+  --background-image-hero-pattern: url("src/assets/bg.png");
 }
 
+/* Define custom layers for base styles, components, and utilities */
 @layer base {
   body {
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
-    background: #030014;
+    background: #030714;
+    
   }
 
   h1 {
